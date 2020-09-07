@@ -1,0 +1,589 @@
+/* default css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5{
+font-family: 'Quicksand', sans-serif;}
+p span input button{
+font-family: 'Roboto', sans-serif;}
+a, a:hover{
+    text-decoration: none;
+}
+ul, li{
+    list-style: none;
+}
+.container{
+    width: 1124px;
+    margin: auto;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+/* header start here */
+.header{
+   
+    width: 100%;
+}
+.header i{
+    color: red;
+    margin-left: 10px;
+}
+.header span{
+    font-size: 20px;
+    margin:5px 2px;
+    font-weight: 700;
+
+}
+/* header end here */
+/* left content start here */
+.banner{
+    width: 100%;
+    margin-top: 20px;
+    
+}
+
+.banner-info{
+    
+    width:100%;
+}
+
+.banner-left{
+    width: 60%;
+    float: left;
+    
+}
+.banner-right{
+    width: 40%;
+    float: right;}
+.banner-left h1{
+    font-size: 44px;
+
+
+
+}
+.left-content{
+    padding: 60px 50px ;
+}
+.left-content h1{
+    font-size: 44px;
+}
+.banner-left p{
+    margin: 25px 0;
+    color: #4c527d;
+    font-size:22px;
+    
+
+}
+.left-content .banner-btn button:first-child{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background: transparent;
+    background: #ed6524;
+    
+    outline: none;
+    border: none;
+    border: 1px solid #ed6524;
+    padding: 20px 40px;
+    border-radius: 35px;
+    
+
+
+}
+
+
+.left-content .banner-btn button:last-child{
+    font-size: 18px;
+    font-weight: 600;
+    color:#ed6524;
+    
+    border: none;
+    border: 1px solid #ed6524;
+    outline: none;
+    
+    padding: 20px 40px;
+    border-radius: 35px;
+    transition: 0.6s ease-in-out;
+
+}
+.left-content .banner-btn button:last-child:hover{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background: transparent;
+    background: #ed6524;
+    
+    outline: none;
+    border: none;
+    border: 1px solid #ed6524;
+    padding: 20px 40px;
+    border-radius: 35px;
+    transition: 0.6s ease-in-out;
+    cursor: pointer;
+
+
+}
+.comment{
+    margin: 50px 50px 0 0;
+}
+.comment-box{
+    width: 100%;
+    background: #f6f8fc;
+    padding: 10px 8px;
+    border-left: 4px solid #ed6524;
+    position: relative;
+}
+.comment-box p{
+    font-size: 17px;
+    font-style: italic;
+}
+.box-icon{
+    height: 40px;
+    width: 40px;
+    background:#f6f8fc;
+    position: absolute;
+    left: 50px;
+    bottom: -20px;
+    transform: rotate(45deg);
+}
+.comment-user{
+    width: 100%;
+    margin:45px 0 0 22px ;
+}
+.user-img{
+    width: 15%;
+    float: left;
+
+}
+.user-text{
+    width: 85%;
+    float: right;
+
+}
+.user-text .user-des{
+    margin: 20px;
+}
+.user-text .user-des p{
+    font-size: 14px;
+    line-height:5px;
+}
+
+/*left content end here */
+/* right content start here */
+.right-content{
+    position: relative;
+
+}
+.book-circle {
+    width: 120px;
+    height: 120px;
+    background: #5cb377;
+    border-radius: 50%;
+    position: absolute;
+    top: -30px;
+    right: 0;
+       
+    }
+    
+.book-circle h3{
+    color: #fff;
+    
+    padding-top: 32px;
+    text-align: center;
+    font-size: 22px;
+
+}
+.book-link{
+text-align: center;
+}
+.book-link a{
+    text-decoration: underline;
+    font-size: 20px;
+    color: #ed6524;
+}
+/* right content end here */
+/* service section start here */
+.service{
+    width: 100%;
+    
+ 
+
+
+    
+    
+
+}
+.service-header{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+
+}
+.service-header h2{
+    font-size: 40px;
+    text-align-last: left;
+    
+    
+
+    
+}
+.service-header p{
+    margin-top: 20px;
+font-size: 21px;
+margin:0 220px;
+color: #4c527d;
+}
+.service-gallery{
+    margin-top: 80px;
+    width: 100%;
+    float: left;
+    
+
+}
+.service-item{
+    width: 33%;
+    float: left;
+
+}
+.service-item{
+    text-align: center;
+    padding: 42px;
+}
+
+.item-content h3{
+    margin: 12px 0;
+
+}
+.item-content p{
+    font-size: 18px;
+    color: #4c527d;
+
+}
+.item-desc i{
+    font-size:40px;
+    color: #ed6524;
+    
+}
+
+
+/* service section end here */
+/* included css start here */
+.included{
+    width: 100%;
+    margin: 20px 0;
+
+}
+.included-tittle{
+    text-align: center;
+}
+.included-section{
+    margin: 30px 0;
+}
+.included-left{
+    width: 40%;
+    float: left;
+}
+.included-left img{
+    width: 100%;
+}
+.included-right{
+    width: 60%;
+    float: right;
+}
+.right-included{
+    width: 100%;
+    margin-left: 60px;
+    
+}
+.right-included i{
+height: 20px;
+width: 20px;
+text-align: center;
+line-height: 20px;
+background: #7FCDB8;
+color: white;
+margin-right: 10px;
+border-radius:100%;}
+.right-included ul li{
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 18px;
+    
+}
+.included-button{
+    width: 100%;
+    
+}
+.included-button button{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background: transparent;
+    background: #ed6524;
+    
+    outline: none;
+    border: none;
+    border: 1px solid #ed6524;
+    padding: 20px 40px;
+    border-radius: 35px;
+    text-align: center;
+    margin: 30px 60px;
+    
+}
+/* included css end here */
+/*product start here*/
+.product{
+    width: 100%;
+    margin: 140px 0;
+}
+.product-tittle{
+    margin-top: 20px;
+    text-align: center;
+    
+}
+.product-tittle h1{
+    margin: 20px 0;
+    font-size: 44px;
+}
+.product-content{
+    text-align: center;
+}
+.product-content p{
+    font-size: 22px;
+    color:#4c527d ;
+}
+.product-desc{
+    width: 100%;
+}
+.left-product{
+    width:5%;
+    float: left;
+    
+    
+    display: block;
+    
+}
+
+.left-product i{
+    height: 40px;
+    width: 40px;
+    background:#7FCDB8;
+    line-height: 40px;
+    display: block;
+    font-size: 30px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    
+
+}
+  .right-product{
+      width: 95%;
+      float: left;
+      
+      display: block;
+    
+  }
+  .right-p{
+      margin-left: 305px;
+      margin-top: 4px;
+      font-size: 17px;
+      color:#4c527d ;
+      margin-left: -530px;
+      margin-bottom: 3px;
+  }
+  .child2{
+      margin-top: 20px;
+      
+  }
+  .right-tittle h3{
+      
+      margin-left: -880px;
+      font-weight:500;
+      
+  }
+  
+
+         
+/*product end here*/
+/*submit start here*/
+.submit{
+    width: 100%;
+    height: 200px;
+}
+.submit-bg{
+    background: #f6f8fc;
+    height: 200px; 
+}
+.submit-header{
+    text-align: center;
+}
+.submit-header h1{
+    padding-top: 30px;
+    font-size: 40px;
+    
+    
+    
+}
+.submit-header p{
+    color:#4c527d ;
+
+
+}
+input[type=Email]{
+    padding:7px 25px;
+    border: none;
+    background: #fff;
+    margin: 5px 0;
+   
+}
+input[type=Submit]{
+    border: none;
+    color: white;
+    background: #ed6524;
+    border: none;
+    padding: 8px 10px;
+    font-weight: 500;
+}
+.submit-footer{
+    width: 100%;
+    margin: 20px 0;
+}
+.submit-footer-header{
+    text-align: center;
+}
+.submit-footer-header h1{
+    margin-bottom: 6px;
+}
+.submit-footer-header p{
+    font-size: 18px;
+    color: #4c527d;
+}
+
+/*submit end here*/
+/*book review start here*/
+.review{
+    width: 100%;
+}
+.review-box{
+    width:31%;
+    background: #f6f8fc;
+    float: left;
+    border: 1px solid #ddd;
+    margin: 1%;
+    position: relative;
+    
+    
+    
+
+}
+.quote{
+    position: absolute;
+    top: -10px;
+    left:50%;
+ 
+}
+.quote i{
+    
+    color: #ed6524;
+}
+.review-p{
+    padding-top: 8px;
+    margin-bottom: 10px;
+    margin: 18px 0 ;
+    padding:0 7px;
+    text-align: center;
+}
+.review-user{
+    width: 100%;
+    margin: 45px 00 22px;
+
+}
+.review-img{
+    width: 15%;
+    float: left;
+    margin-left: 10px;
+
+}
+.review-text{
+    width: 80%;
+    float: right;
+    
+}
+
+
+.review-text .review-des{
+    margin: 10px;
+}
+.review-text .review-des p{
+    font-size: 14px;
+    line-height:5px;
+    margin-top: 20px;
+    
+}
+.intro{
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+}
+.intro h5{
+    
+    background:#ed6524;
+    display:inline;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius:30px;
+}
+
+
+
+
+/*book review wnd here*/
+/*footer start here*/
+.down{
+    
+    background: #ed6524;
+    width: 100%;
+    
+}
+.down-image{
+    width: 120px;
+    height: 120px;
+    margin:20px auto;
+}
+
+.down-image img{
+    height: 100%;
+    
+    margin-top: 20px;
+}
+.down-content h3{
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    padding: 20px 0;
+}
+.down-content p{
+    color: #4c527d ;
+    font-size: 18px;
+    padding: 10px 0;
+}
+.down ul{
+    text-align: center;
+    margin: 15px 0;
+}
+.down ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    font-size: 2em;
+}
+
+.footer h3{
+    text-align: center;
+
+}
+/*footer end here*/
